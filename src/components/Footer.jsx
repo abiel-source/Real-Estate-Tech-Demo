@@ -5,8 +5,8 @@ function Footer() {
   return (
     <Box sx={{ py: 3, mt: 6, borderTop: "1px solid #eee" }}>
       <Typography variant="body2" color="text.secondary" align="center">
-        © {new Date().getFullYear()} MapleHomes · Built as a prototype real estate
-        experience for Canadian buyers, sellers, and investors.
+        © {new Date().getFullYear()} EstateTech - Built as a prototype real
+        estate experience inspired by Zillow and HouseSigma.
       </Typography>
     </Box>
   );
