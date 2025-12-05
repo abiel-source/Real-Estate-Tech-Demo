@@ -27,7 +27,7 @@ function getCityCenter(cityName) {
   return CITY_COORDS[key] || CITY_COORDS.vancouver;
 }
 
-// Generate random markers around city center (for map only)
+// Generate random markers around city center
 function generateRandomPins(center, count = 10) {
   const pins = [];
   for (let i = 0; i < count; i++) {

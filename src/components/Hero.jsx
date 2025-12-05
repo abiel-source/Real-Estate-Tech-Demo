@@ -64,7 +64,7 @@ function Hero() {
           }}
         >
           <TextField
-            placeholder="Search by city (e.g., Vancouver)…"
+            placeholder="Try searching Vancouver, Toronto, Cardiff, Mumbai"
             variant="outlined"
             fullWidth
             value={query}
